@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Insert your styling here. */
+
+body{
+    font-family: "Roboto","sans-serif";
+    line-height: 1.7;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+section{
+    padding: 80px 0px;
+}
+
+@media(max-width:600px) {
+    section {
+        padding: 60px 0px;
+    }
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 4;
+}
+
+nav * {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 66px;
+    padding: 0px 20px;
+}
+
+.navbar-center a {
+    padding: 0px 18px;
+    color: black;
+}
+
+.navbar-center button {
+    display: none;
+}
